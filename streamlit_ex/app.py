@@ -196,7 +196,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
     "📦 분포(히스토그램)",
     "🧩 상관 히트맵",
     "🔗 관계(산점도+회귀)",
-    "🤖 간단 예측(다중선형회귀)"
+    "💡 간단 예측(다중선형회귀)"
 ])
 
 # --- 1) 분포 ---
@@ -306,5 +306,7 @@ with st.expander("📜 데이터 미리보기"):
 
 st.caption(
     f"동일 폴더에 `{DEFAULT_CSV_NAME}`를 두면 자동 로드됩니다. "
+    "로컬에서 실행할 경우 터미널에 install streamlit pandas altair 입력하여 설치 후 streamlit run app.py를 실행해주세요."
 )
+
 
