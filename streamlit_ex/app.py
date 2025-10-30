@@ -126,6 +126,8 @@ with st.expander("📘 데이터 설명"):
     - `attendance_percentage`: 출석률(%)  
     - `previous_scores`: 직전 시험 점수  
     - `exam_scores`: 현재 시험 점수  
+    
+    데이터 출처: https://www.kaggle.com/datasets/grandmaster07/student-exam-score-dataset-analysis?resource=download
     """)
 
 # =========================
@@ -305,3 +307,4 @@ with st.expander("📜 데이터 미리보기"):
 st.caption(
     f"동일 폴더에 `{DEFAULT_CSV_NAME}`를 두면 자동 로드됩니다. "
 )
+
