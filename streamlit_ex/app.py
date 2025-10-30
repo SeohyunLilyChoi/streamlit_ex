@@ -264,7 +264,7 @@ with tab3:
 
 # --- 4) 간단 예측(다중선형회귀) ---
 with tab4:
-    st.markdown("### 🤖 간단 예측 (다중선형회귀)")
+    st.markdown("### 💡 간단 예측 (다중선형회귀)")
     st.caption("공부 시간, 수면 시간, 출석률, 이전 점수로 현재 시험 점수를 선형 회귀로 예측해봅니다.")
     feature_cols = ["hours_studied", "sleep_hours", "attendance_percentage", "previous_scores"]
 
@@ -308,5 +308,6 @@ st.caption(
     f"동일 폴더에 `{DEFAULT_CSV_NAME}`를 두면 자동 로드됩니다. "
     "로컬에서 실행할 경우 터미널에 install streamlit pandas altair 입력하여 설치 후 streamlit run app.py를 실행해주세요."
 )
+
 
 
